@@ -51,7 +51,7 @@ function createIframe(url, videoService, options) {
               width="${options.width}"
               height="${options.height}"
               data-src="${url}"
-              class="embedVideo-iframe"
+              class="embedVideo-iframe lazyload"
               ${options.noIframeBorder ? 'style="border:0"' : ''}
               allowfullscreen
             ></iframe>
